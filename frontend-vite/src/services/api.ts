@@ -9,7 +9,8 @@ import type {
 import { convertRoastToItems } from "../types/api";
 
 // API Configuration
-const API_BASE_URL = import.meta.env.VITE_API_URL || "https://thegitroastshow.onrender.com";
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL || "https://thegitroastshow-bx4j.onrender.com";
 
 class APIRequestError extends Error {
   public readonly status: number;
