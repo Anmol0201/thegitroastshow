@@ -21,7 +21,8 @@ export interface TextToSpeechControls {
   setElevenLabsVoiceId: (voiceId: string) => void;
 }
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL || "https://thegitroastshow-bx4j.onrender.com";
 
 /**
  * Custom hook for text-to-speech functionality using ElevenLabs only

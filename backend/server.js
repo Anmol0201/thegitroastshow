@@ -40,6 +40,7 @@ app.use(
     origin: [
       // Production domains
       "https://thegitroastshow.vercel.app",
+      "https://thegitroastshow-indol.vercel.app",
       "https://thegitroastshow-git-*-rawrnuck.vercel.app",
       "https://*.vercel.app",
       // Development domains - always allow for testing
